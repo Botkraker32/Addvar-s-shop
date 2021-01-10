@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/502ec80299.js" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" href="res/icon.png" type="image/x-icon">
+    <title>Addvar's shop</title>
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+    <nav id='navleft'>
+    <div style="display: flex;">
+    <p>Your balance:</p>
+    <p style='color:yellow;'>50</p>
+    </div>
+    <div style="display: flex;">
+    <p>Total:</p>
+    <p class='total' style="color:yellow;">0</p>
+    </div>
+    <button onclick='buy()' style="font-size:1em;">purchase</button>
+    
+    </nav>
+    <header>
+
+        <H1>"You shouldn't leave Solitude without trying our fish. Best in Skyrim."<br>―Addvar</H1></header>
+    <div class="content">
+        <div class="frame">
+            <p>Seared slaughterfish</p>
+            <img src="res/Seared_slaughterfish.webp" alt="Seared_slaughterfish">
+            <div class="price">
+                <p>5</p>
+                <img src="res/Septim_Skyrim.webp" alt="Septim_Skyrim" >
+                <i class="fas fa-heart scale-in-center" onClick='liked(this)' style="color:pink;padding-left:5px;transition: 1 ease;"></i>
+            </div>
+            <button class="btn">Add</button>
+            
+        </div>
+        <div class="frame">
+            <p>Cooked boar meat</p>
+            <img src="res/Cooked_boar_meat.webp" alt="Cooked_boar_meat">
+            <div class="price">
+                <p>15</p>
+                <img src="res/Septim_Skyrim.webp" alt="Septim_Skyrim" >
+                <i class="fas fa-heart scale-in-center" onClick='liked(this)' style="color:pink;padding-left:5px;transition: 1 ease;"></i>
+            </div>
+            <button class="btn">Add</button>   
+        </div>
+        <div class="frame">
+            <p>Apple Pie</p>
+            <img src="res/Apple_Pie.webp" alt="Apple_Pie">
+            <div class="price">
+                <p>5</p>
+                <img src="res/Septim_Skyrim.webp" alt="Septim_Skyrim">
+                <i class="fas fa-heart scale-in-center" onClick='liked(this)' style="color:pink;padding-left:5px;transition: 0.2 ease;"></i>
+
+            </div>
+            <button class="btn">Add</button> 
+        </div>
+        <div class="frame">
+            <p>Tomato</p>
+            <img src="res/Skyrim_Tomato.webp" alt="Skyrim_Tomato">
+            <div class="price">
+                <p>4</p>
+                <img src="res/Septim_Skyrim.webp" alt="Septim_Skyrim" >
+                <i class="fas fa-heart scale-in-center" onClick='liked(this)' style="color:pink;padding-left:5px;transition: 0.2 ease;"></i>
+
+            </div>
+            <button class="btn">Add</button>
+        </div>
+        <div class="frame">
+            <p>SweetRoll</p>
+            <img src="res/SweetRoll.webp" alt="SweetRoll">
+            <div class="price">
+                <p>2</p>
+                <img src="res/Septim_Skyrim.webp" alt="Septim_Skyrim">
+                <i class="fas fa-heart scale-in-center" onClick='liked(this)' style="color:pink;padding-left:5px;transition: 0.2 ease;"></i>
+            </div>
+            <button class="btn">Add</button>           
+        </div>
+    </div>
+
+    <table >
+        <tbody class="items2buy">
+            
+        </tbody>
+    </table>
+
+
+
+
+    <script src="scripts/script.js"></script>
+</body>
+</html>
